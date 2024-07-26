@@ -37,11 +37,7 @@
         <a class="address__link" href="mailto:info@sobaka.ge">
           info@sobaka.ge
         </a>
-        <p>
-          наб. Принсенграхт 263-
-          <br />
-          265, Амстердам
-        </p>
+        <p>наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
     </header>
     <main>
@@ -61,14 +57,16 @@
             >
           </span>
         </h1>
-        <section class="cover__description">
+        <div class="cover__description">
           <p class="cover__description-text">
             Аукцион вещей,
+            <!-- Спан добавляю, так как в макете текст выглядит так: "вкоторые".
+             Возможно опечатка, но решила работать с тем, что дано. -->
             <span class="cover__description-text-spacing-extended">в</span
             >которые никто не верил
           </p>
-          <button class="bet-button">Сделать ставку</button>
-        </section>
+          <button class="bet-button" type="button">Сделать ставку</button>
+        </div>
       </section>
       <section class="lots" id="lots">
         <h2 class="lots__heading">Лоты</h2>
@@ -163,7 +161,7 @@
         <a class="address__link" href="mailto:info@sobaka.ge">
           info@sobaka.ge
         </a>
-        <p>наб. Принсенграхт 263-<br />265, Амстердам</p>
+        <p>наб. Принсенграхт 263- 265, Амстердам</p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
@@ -181,7 +179,7 @@
       <section class="footer__icons-menu">
         <ul class="footer__social-list">
           <li class="footer__social-list-item">
-            <a class="footer__social-link" href="#0">
+            <a class="footer__social-link" href="#0" target="_blank">
               <img
                 class="footer__social-icon"
                 src="./images/yt.svg"
@@ -190,7 +188,7 @@
             </a>
           </li>
           <li class="footer__social-list-item">
-            <a class="footer__social-link" href="#0">
+            <a class="footer__social-link" href="#0" target="_blank">
               <img
                 class="footer__social-icon"
                 src="./images/vk.svg"
@@ -199,7 +197,7 @@
             </a>
           </li>
           <li class="footer__social-list-item">
-            <a class="footer__social-link" href="#0">
+            <a class="footer__social-link" href="#0" target="_blank">
               <img
                 class="footer__social-icon"
                 src="./images/pinterest.svg"
